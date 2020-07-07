@@ -36,7 +36,7 @@ function App() {
           </div>
         </div>
         <div className="profileBox">
-          <img src={profile} className="profile"/>
+          <img src={profile} className="profile" alt="my bootiful face"/>
         </div>
       </div>
     </header>
@@ -66,7 +66,7 @@ function App() {
         {/* Consider Mapping */}
         <div className="talksFlex">
           <div className="talksBox">
-            <img src={patrick} className="talksPic"/>
+            <img src={patrick} className="talksPic" alt="Patrick Collison AMA"/>
             <a className="watch" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=DvROZ-OBszU"><span role="img" aria-label="play">▶️</span> WATCH</a>
           </div>
           <div className="talksText">
@@ -77,7 +77,7 @@ function App() {
 
         <div className="talksFlex">
           <div className="talksBox">
-            <img src={grad} className="talksPic"/>
+            <img src={grad} className="talksPic" alt="Valedictorian Commencement Address"/>
             <a className="watch" target="_blank" rel="noopener noreferrer" href="https://www.greatneck.k12.ny.us/Page/14827"><span role="img" aria-label="play">▶️</span> WATCH</a>
           </div>
           <div className="talksText">
@@ -88,7 +88,7 @@ function App() {
         <br/>
         <div className="talksFlex">
           <div className="talksBox">
-            <img src={elon} className="talksPic"/>
+            <img src={elon} className="talksPic" alt="Elon Musk AMA"/>
             <a className="watch" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=EXflAAxTWHI"><span role="img" aria-label="play">▶️</span> WATCH</a>
           </div>
           <div className="talksText">
@@ -99,7 +99,7 @@ function App() {
         <br/>
         <div className="talksFlex">
           <div className="talksBox">
-            <img src={tcs} className="talksPic"/>
+            <img src={tcs} className="talksPic" alt="Speaker Series: THLI & TCS"/>
             <a className="watch" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Cb_wpcjJlvg"><span role="img" aria-label="play">▶️</span> WATCH</a>
           </div>
           <div className="talksText">
