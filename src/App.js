@@ -59,7 +59,7 @@ function App() {
     {/* FOOTER */}
     <div className="footer">
       <div id="content" className="footerContent">
-      <center><p>Made with 💙 by Austin George.</p></center>
+      <center><p>Made with <span role="img" aria-label="blueheart">💙</span> by Austin George.</p></center>
       </div>
     </div>
     </center>
