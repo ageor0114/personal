@@ -1,0 +1,26 @@
+.introBox{
+  text-align: left;
+  max-width: 400px;
+  background-color: #3498db;
+  padding-bottom: 20px;
+}
+
+.profileBox{
+  justify-content: center;
+  background-color: #3498db;
+}
+
+.talksBox{
+  min-width: 320px;
+  background-color: #2980b9; /*3498db;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.talksText{
+  max-width: 400px;
+  background-color: #2980b9;
+  padding-left: 20px;
+}

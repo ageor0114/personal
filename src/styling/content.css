@@ -1,0 +1,11 @@
+.introContent{
+  background-color: #3498db;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.header{
+  background-color: #282c34;
+  color: white;
+}

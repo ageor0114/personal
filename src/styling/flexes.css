@@ -1,0 +1,10 @@
+.talksFlex{
+background-color: #2980b9; /*206ea1; 341f97;*/
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+border-radius: 2px;
+padding-top:10px;
+padding-bottom:10px;
+margin-bottom: 20px;
+}

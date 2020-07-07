@@ -1,0 +1,48 @@
+.profile{
+  max-width: 300px;
+}
+
+.talksPic{
+  max-width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 0px 0px #0a6cad;
+}
+
+.anchorButton{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  background-color: white;
+  border-width: 20px;
+  border-color: yellow;
+  color:#282c34;
+  border-radius: 2px;
+  padding: 2px 10px 2px 10px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.anchorButton:hover{
+  background-color: #63cdda;
+}
+
+.watch{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  background-color: white;
+  color: #282c34;
+  border-radius: 2px;
+  padding: 2px 4px 2px 4px;
+  transition: 0.3s;
+}
+
+.watch:hover{
+  background-color: #63cdda;
+}
+
+.name{
+  color: white;
+}
+
+.name:hover{
+  color: #63cdda;
+}
