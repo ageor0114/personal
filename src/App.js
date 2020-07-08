@@ -127,7 +127,7 @@ function App() {
       <div id="content" className="artContent">
       <h1 className="title">Art</h1>
       <p>{placeholder}</p>
-      <Gallery photos={ART} direction={"column"} />
+      <Gallery photos={ART} direction={"column"} columns={4} />
       </div>
     </section>
 
