@@ -1,0 +1,49 @@
+.talksWave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.talksWave svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 47px;
+}
+
+.talksWave .shape-fill {
+    fill: #000033;
+}
+
+.talksTilt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.talksTilt svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 23px;
+}
+
+.talksTilt .shape-fill {
+    fill: #000033;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .talksTilt svg {
+        width: calc(100% + 1.3px);
+        height: 28px;
+    }
+}
