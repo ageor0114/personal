@@ -1,4 +1,5 @@
 import React from 'react';
+import Gallery from 'react-photo-gallery';
 import './App.css';
 import profile from './images/austin.PNG';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -6,6 +7,8 @@ import patrick from './images/talks/Patrick-Austin.png';
 import grad from './images/talks/Commencement.png';
 import elon from './images/talks/Elon-Austin.png';
 import tcs from './images/talks/THLI-TCS.png';
+import { ART } from './art'
+
 
 function App() {
   let placeholder = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim, send me gp plz, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
@@ -85,7 +88,7 @@ function App() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <br/>
+
         <div className="talksFlex">
           <div className="talksBox">
             <img src={elon} className="talksPic" alt="Elon Musk AMA"/>
@@ -96,7 +99,7 @@ function App() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
           </div>
         </div>
-        <br/>
+
         <div className="talksFlex">
           <div className="talksBox">
             <img src={tcs} className="talksPic" alt="Speaker Series: THLI & TCS"/>
@@ -116,6 +119,7 @@ function App() {
       <div id="content" className="artContent">
       <h1 className="title">Art</h1>
       <p>{placeholder}</p>
+      <Gallery photos={ART} direction={"column"} />
       </div>
     </section>
 
