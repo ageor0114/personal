@@ -1,17 +1,17 @@
 
 const ART = [
   {
-    src: "./images/art/chance.PNG",
+    src: "https://github.com/ageor0114/personal/blob/master/src/images/art/chance.PNG?raw=true",
     width:4,
     height:3
   },
   {
-    src: "./images/art/crayola.PNG",
+    src: "https://github.com/ageor0114/personal/blob/master/src/images/art/crayola.PNG?raw=true",
     width:3,
     height:4
   },
   {
-    src: "./images/art/love-brings-you-home.png",
+    src: "https://github.com/ageor0114/personal/blob/master/src/images/art/love-brings-you-home.png?raw=true",
     width:4,
     height:3
   },
