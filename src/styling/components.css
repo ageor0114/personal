@@ -16,6 +16,12 @@
   box-shadow: 10px 10px 0px 0px #0a6cad;
 }
 
+.projectsPic{
+  max-width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 0px 0px #1c0b6e;
+}
+
 .anchorButton{
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -47,6 +53,20 @@
   background-color: #9ac8e6;
 }
 
+.projectsLink{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  background-color: white;
+  color: #282c34;
+  margin-right: 10px;
+
+  padding: 2px 4px 2px 4px;
+  transition: 0.3s;
+}
+
+.projectsLink:hover{
+  background-color: #9c8de3
+}
 .name{
   color: white;
 }
