@@ -6,10 +6,11 @@
 @import "./styling/components.css";
 @import "./styling/dividers.css";
 @import "./styling/colors.css";
+@import "./styling/fonts.css";
 
 #intro { background-color: #3498db; } /* #3B3B98; } /* #00b894 } #55efc4; }*/
 #about { background-color: #341f97; } /*2980b9; } /*#74b9ff; }*/
-#projects { background-color: #3c40c6; }
+#projects { background-color: #000033; } /*3c40c6; }*/
 #talks { background-color: #0c2461; position: relative; }
 #art { background-color: #000033; }
 #media { background-color: #0c2461; }

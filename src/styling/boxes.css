@@ -2,7 +2,17 @@
   text-align: left;
   max-width: 400px;
   background-color: #3498db;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 745px) {
+  .introBox{
+    align-items: center;
+  }
 }
 
 .profileBox{

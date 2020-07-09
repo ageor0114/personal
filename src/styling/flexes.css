@@ -8,3 +8,11 @@ padding-top:10px;
 padding-bottom:10px;
 margin-bottom: 20px;
 }
+
+
+.iconsFlex{
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
