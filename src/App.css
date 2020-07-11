@@ -9,7 +9,7 @@
 @import "./styling/fonts.css";
 
 #intro { background-color: #3498db; position: relative; padding-bottom: 70px;} /* #3B3B98; } /* #00b894 } #55efc4; }*/
-#about { background-color: #341f97; } /*2980b9; } /*#74b9ff; }*/
+#about { background-color: #341f97; position: relative; padding-bottom: 70px;} /*2980b9; } /*#74b9ff; }*/
 #projects { background-color: #000033; } /*3c40c6; }*/
 #talks { background-color: #0c2461; position: relative; }
 #art { background-color: #000033; }
