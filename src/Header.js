@@ -12,7 +12,7 @@ function Header(){
     <header id="intro">
       <div id="content" className="introContent">
         <div className="introBox">
-          <h1>Austin George</h1>
+          <h1 className="name">Austin George</h1>
           <p>Computer Science, UC Berkeley</p>
           <a className="email" href="mailto:a2@berkeley.edu" target="_blank" rel="noopener noreferrer"><p>a2@berkeley.edu</p></a>
           <p><i>"I use em-dashes more often than I probably should ..."</i></p>
@@ -25,7 +25,7 @@ function Header(){
           <div className="anchorLinks">
           <AnchorLink className="anchorButton" href="#projects">PROJECTS</AnchorLink>
           <AnchorLink className="anchorButton" href="#talks">TALKS</AnchorLink>
-          <AnchorLink className="anchorButton" href="#art">ART</AnchorLink>
+          <AnchorLink className="anchorButtonEnd" href="#art">ART</AnchorLink>
           </div>
         </div>
         <div className="profileBox">
