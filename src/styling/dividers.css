@@ -1,24 +1,3 @@
-.talksWave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.talksWave svg {
-    position: relative;
-    display: block;
-    width: calc(126% + 1.3px);
-    height: 47px;
-}
-
-.talksWave .shape-fill {
-    fill: #000033;
-}
-
 .talksTilt {
     position: absolute;
     bottom: 0;
@@ -45,5 +24,34 @@
     .talksTilt svg {
         width: calc(100% + 1.3px);
         height: 28px;
+    }
+}
+
+.headerTilt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.headerTilt svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 54px;
+}
+
+.headerTilt .shape-fill {
+    fill: #341F97;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .headerTilt svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
     }
 }
