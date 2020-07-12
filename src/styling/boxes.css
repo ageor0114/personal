@@ -9,11 +9,7 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 745px) {
-  .introBox{
-    align-items: center;
-  }
-}
+
 
 .profileBox{
   justify-content: center;
@@ -48,4 +44,14 @@
   max-width: 400px;
   background-color: #341f97;
   padding-left: 20px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 745px) {
+  .introBox{
+    align-items: center;
+  }
+  .projectsText{
+    padding-left: 10px;
+  }
 }
