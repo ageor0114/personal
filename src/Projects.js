@@ -1,6 +1,7 @@
 import React from 'react';
 import andafter from './images/andafter.gif';
 import halfbothalfbrain from './images/gifs/halfbothalfbrain.gif';
+import pacman from './images/gifs/pacman.gif';
 
 function Projects(){
   let placeholder="ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim, send me gp plz, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
@@ -48,7 +49,7 @@ function Projects(){
         {/* AND AFTER */}
         <div className="projectsFlex">
           <div className="projectsBox">
-            <img src={andafter} className="projectsPic" alt="And After"/>
+            <img src={pacman} className="projectsPic" alt="And After"/>
             <div className="buttonsFlex">
               <a className="projectsLink" target="_blank" rel="noopener noreferrer" href="https://andafter.netlify.app/"><span role="img" aria-label="sparkles">✨</span> DEMO</a>
               <a className="projectsLink" target="_blank" rel="noopener noreferrer" href="https://github.com/ageor0114/pacman"><span role="img" aria-label="cabinet">🗄️</span> CODE</a>
@@ -57,7 +58,7 @@ function Projects(){
           <div className="projectsText">
             <h2>PACMAN</h2>
             <p><i>Java, Swing</i></p>
-            <p>{pmText}</p>
+            <p>{aaText}</p>
           </div>
         </div>
       </div>
