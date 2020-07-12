@@ -58,7 +58,7 @@ function Projects(){
           <div className="projectsText">
             <h2>PACMAN</h2>
             <p><i>Java, Swing</i></p>
-            <p>{aaText}</p>
+            <p>{pmText}</p>
           </div>
         </div>
       </div>
