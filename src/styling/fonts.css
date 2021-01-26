@@ -7,3 +7,8 @@
 margin-block-start: .3em;
 margin-block-end: .3em;
 }
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
